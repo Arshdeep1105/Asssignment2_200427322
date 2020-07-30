@@ -1,0 +1,27 @@
+//- 
+ File Name: services.pug
+ Author's name:  Arshdeep Singh
+ Website name: Drink Management
+ File description: This is a service page which conatins the information of language that authour has knowledge about.
+//
+include layout.pug
+doctype html
+head
+  title #{title}
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+div(text-align:='')
+  form
+    span
+      | Welcome
+      div(data-validate='Enter username')
+        input(type='text' name='username')
+        span(data-placeholder='Username')
+      div
+        input
+        span(data-placeholder='Password')
+      div
+        button
+          | Login
+
+include partials/footer.pug

@@ -1,0 +1,17 @@
+//- 
+ File Name: contact.pug
+ Author's name:  Arshdeep Singh
+ Website name: Drink Management
+ File description: This file contains the contact information of the author including email address,home address and phone number .
+//
+include layout.pug
+form
+  h1 Sign up
+  br
+  span.input
+  input(type='text', name='name', placeholder='Full name')
+  input(type='email', name='email', placeholder='Email address', required='')
+  input(type='password', name='password', placeholder='Password', required='')
+  button(type='submit', value='Sign Up', title='Submit form')
+    span Sign up
+include partials/footer.pug
